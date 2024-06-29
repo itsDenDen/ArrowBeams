@@ -46,9 +46,6 @@ Destroys the beam completely.
 local arrowBeams = {}
 arrowBeams.__index = arrowBeams
 
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Players = game:GetService("Players")
-
 local defauleBeamProperties = {
 	Enabled = true,
 	Brightness = 1,
