@@ -73,10 +73,10 @@ end
 --	[[ CONSTRUCTOR ]]
 function arrowBeams.new(parent, properties)
 	local self = setmetatable({
-		Attachment0 = Instance.new("Attachment"),
-		Attachment1 = Instance.new("Attachment"),
-		Beam = Instance.new("Beam"),
-		Parent = parent or workspace.Terrain
+		Attachment0: Attachment = Instance.new("Attachment"),
+		Attachment1: Attachment = Instance.new("Attachment"),
+		Beam: Beam = Instance.new("Beam"),
+		Parent: Instance = parent or workspace.Terrain
 	}, arrowBeams)
 	
 	self:resetDefault()
